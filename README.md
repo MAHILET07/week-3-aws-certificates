@@ -2,11 +2,20 @@
 
 **Name:** Mahilet Andualem
 **Date completed:** 4 November 2026
+**Track:** Cloud & DevOps (AWS Student Builders Group)
 
 ## Courses completed
-- AWS EC2 course: `ec2-certificate.pdf`
-- AWS S3 course: `s3-certificate.pdf`
+- AWS EC2 course: [AWS EC2.pdf](certificates/AWS%20EC2.pdf)
+- AWS S3 course: [AWS S3.pdf](certificates/AWS%20S3.pdf)
 
 ## What I learned
-- **EC2:** Amazon EC2 provides virtual servers in the cloud. I learned how to choose an instance type and AMI, how security groups and key pairs control access to an instance, and how pricing options like On-Demand work. I also learned that you pay for the compute you use and can scale up or down as needed.
-- **S3:** Amazon S3 is object storage where files are stored as objects inside buckets. I learned about storage classes, versioning, and how access is controlled with IAM policies and bucket policies. This connects to my Week 2 lab, where I wrote a least-privilege policy allowing only `s3:GetObject`.
+
+### Amazon EC2
+- EC2 lets you rent virtual servers (instances) in the cloud instead of buying physical hardware.
+- I learned that you choose an instance type (CPU and memory), an operating system image (AMI), and storage, and that security groups act as a firewall controlling which traffic can reach the instance.
+- I also learned that you pay for what you use, and that you can start, stop, and scale instances as needed.
+
+### Amazon S3
+- S3 is object storage. Files are stored as objects inside buckets, and each object is reached by a unique key.
+- I learned that access is controlled with permissions and policies, and that buckets are private by default.
+- I also learned about storage classes, versioning, and how S3 keeps data durable and available.
